@@ -35,8 +35,10 @@ def init_db():
     Base.metadata.create_all(bind=engine)
     from .seed import seed_tools
     with SessionLocal() as db:
-        if db.scalar(select(Tool.id).limit(1)) is None:
-            db.add_all(Tool(**row) for row in seed_tools())
+        existing = set(db.scalars(select(Tool.name)).all())
+        missing = [row for row in seed_tools() if row["name"] not in existing]
+        if missing:
+            db.add_all(Tool(**row) for row in missing)
             db.commit()
 
 def get_db():

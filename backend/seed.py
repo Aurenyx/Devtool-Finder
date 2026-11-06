@@ -155,6 +155,73 @@ CATALOG = {
 ]
 }
 
+ADDITIONS = {
+"IDE & Editor": [
+("Helix","https://helix-editor.com/","MPL-2.0","Free",["Rust"],["Web Development","Backend","DevOps"],["Modal editing","Tree-sitter","Language server support"],"Growing"),
+],
+"Frontend Framework": [
+("SvelteKit","https://svelte.dev/docs/kit","MIT","Free",["JavaScript","TypeScript"],["Web Development","Frontend","Full Stack"],["File-based routing","Server rendering","Form actions"],"High"),
+],
+"Backend Framework": [
+("Fastify","https://fastify.dev/","MIT","Free",["JavaScript","TypeScript"],["Backend","API Development","Web Development"],["Schema-based validation","Plugin architecture","Low overhead"],"High"),
+("Bun","https://bun.sh/","MIT","Free",["JavaScript","TypeScript"],["Backend","Web Development","Local Development"],["JavaScript runtime","Package manager","Test runner"],"High"),
+("Deno","https://deno.com/","MIT","Free",["JavaScript","TypeScript"],["Backend","Web Development","Local Development"],["Secure runtime","Built-in tooling","TypeScript support"],"High"),
+("Prisma","https://www.prisma.io/","Apache-2.0 / Proprietary","Freemium",["TypeScript","JavaScript","SQL"],["Backend","Database","Web Development"],["Type-safe database client","Schema tooling","Migrations"],"High"),
+("Drizzle ORM","https://orm.drizzle.team/","Apache-2.0","Free",["TypeScript","SQL"],["Backend","Database","Web Development"],["TypeScript SQL queries","Schema migrations","Multiple database drivers"],"Growing"),
+("Temporal","https://temporal.io/","MIT / Proprietary","Freemium",["Go","Java","TypeScript","Python"],["Backend","Workflow Automation","Microservices"],["Durable execution","Workflow orchestration","Retries and recovery"],"Growing"),
+("n8n","https://n8n.io/","Sustainable Use License / Proprietary","Freemium",["TypeScript","JavaScript"],["Workflow Automation","API Development","AI/ML"],["Visual workflow builder","400+ integrations","Self-hosting"],"High"),
+],
+"Database": [
+("Neon","https://neon.tech/","Apache-2.0 / Proprietary","Freemium",["SQL","PostgreSQL"],["Database","Backend","Cloud"],["Managed PostgreSQL","Database branching","Scale to zero"],"High"),
+("TiDB","https://www.pingcap.com/tidb/","Apache-2.0 / Proprietary","Freemium",["SQL","Go"],["Database","Backend","Big Data"],["Distributed SQL","Horizontal scaling","MySQL compatibility"],"Growing"),
+("SurrealDB","https://surrealdb.com/","BSL-1.1 / Proprietary","Freemium",["SQL","Rust","JavaScript"],["Database","Backend","Real-time"],["Multi-model database","Graph queries","Realtime subscriptions"],"Growing"),
+],
+"API & Collaboration": [
+("Hoppscotch","https://hoppscotch.io/","MIT / Proprietary","Freemium",["JavaScript","TypeScript","GraphQL"],["API Development","Testing","Collaboration"],["HTTP and GraphQL requests","Collections","Environment variables"],"Growing"),
+("Stoplight","https://stoplight.io/","Proprietary","Freemium",["OpenAPI","JSON Schema"],["API Development","Documentation","Collaboration"],["API design","Mock servers","OpenAPI documentation"],"Growing"),
+("Scalar","https://scalar.com/","MIT / Proprietary","Freemium",["OpenAPI","TypeScript"],["API Development","Documentation"],["OpenAPI references","API client","Customizable themes"],"Growing"),
+],
+"Version Control": [
+("Forgejo","https://forgejo.org/","MIT","Free",["Go","Git"],["Version Control","Collaboration","Self-hosting"],["Git hosting","Code review","Federation"],"Growing"),
+],
+"DevOps & Cloud": [
+("Argo CD","https://argo-cd.readthedocs.io/","Apache-2.0","Free",["Go","YAML"],["DevOps","Deployment","Kubernetes"],["GitOps delivery","Continuous reconciliation","Deployment visibility"],"High"),
+("Flux","https://fluxcd.io/","Apache-2.0","Free",["Go","YAML"],["DevOps","Deployment","Kubernetes"],["GitOps toolkit","Kubernetes reconciliation","Automated updates"],"Growing"),
+("Helm","https://helm.sh/","Apache-2.0","Free",["Go","YAML"],["DevOps","Deployment","Kubernetes"],["Kubernetes packages","Templated releases","Release management"],"High"),
+("HashiCorp Vault","https://www.hashicorp.com/en/products/vault","BUSL-1.1 / Proprietary","Freemium",["Go","HCL"],["DevOps","Security","Cloud"],["Secrets management","Dynamic credentials","Encryption services"],"High"),
+("Fly.io","https://fly.io/","Proprietary","Freemium",["Docker","JavaScript","Python","Go"],["Deployment","Cloud","Edge"],["Global app deployment","Managed databases","Private networking"],"Growing"),
+("Railway","https://railway.com/","Proprietary","Freemium",["JavaScript","Python","Go","Docker"],["Deployment","Cloud","Backend"],["Application hosting","Managed databases","Git-based deployments"],"High"),
+("Nomad","https://developer.hashicorp.com/nomad","MPL-2.0 / Proprietary","Freemium",["HCL","Go"],["DevOps","Deployment","Containers"],["Workload orchestration","Multi-platform scheduling","Service integration"],"Growing"),
+],
+"AI & Machine Learning": [
+("Ray","https://www.ray.io/","Apache-2.0 / Proprietary","Freemium",["Python"],["AI/ML","Data Science","Distributed Systems"],["Distributed Python","Scalable computing","AI application serving"],"High"),
+("vLLM","https://vllm.ai/","Apache-2.0","Free",["Python","C++"],["AI/ML","LLM Applications","Model Deployment"],["LLM inference serving","PagedAttention","OpenAI-compatible API"],"Growing"),
+("BentoML","https://www.bentoml.com/","Apache-2.0 / Proprietary","Freemium",["Python"],["AI/ML","Model Deployment","MLOps"],["Model serving","Inference APIs","Deployment packaging"],"Growing"),
+("Gradio","https://www.gradio.app/","Apache-2.0","Free",["Python"],["AI/ML","Prototyping","Education"],["Interactive ML demos","Python UI components","Model sharing"],"High"),
+("Streamlit","https://streamlit.io/","Apache-2.0 / Proprietary","Freemium",["Python"],["Data Science","AI/ML","Data Visualization"],["Python data apps","Interactive widgets","Dashboard deployment"],"High"),
+("DSPy","https://dspy.ai/","MIT","Free",["Python"],["AI/ML","LLM Applications","Research"],["Declarative LM programming","Prompt optimization","Composable modules"],"Growing"),
+("Haystack","https://haystack.deepset.ai/","Apache-2.0 / Proprietary","Freemium",["Python"],["AI/ML","LLM Applications","Search"],["Retrieval augmented generation","Composable pipelines","Search integrations"],"Growing"),
+("llama.cpp","https://github.com/ggml-org/llama.cpp","MIT","Free",["C++","Python"],["AI/ML","LLM Applications","Local Development"],["Local LLM inference","Quantized models","CPU and GPU backends"],"High"),
+],
+"Data Science & Analytics": [
+("Apache Kafka","https://kafka.apache.org/","Apache-2.0","Free",["Java","Scala"],["Data Engineering","Big Data","Real-time"],["Event streaming","Durable event logs","Stream processing"],"High"),
+("Apache Flink","https://flink.apache.org/","Apache-2.0","Free",["Java","Scala","Python"],["Data Engineering","Big Data","Real-time"],["Distributed stream processing","Event-time processing","Stateful computation"],"High"),
+("Prefect","https://www.prefect.io/","Apache-2.0 / Proprietary","Freemium",["Python"],["Data Engineering","Workflow Automation","MLOps"],["Python workflow orchestration","Retries and scheduling","Pipeline observability"],"High"),
+("Mage","https://www.mage.ai/","Apache-2.0 / Proprietary","Freemium",["Python","SQL","R"],["Data Engineering","Analytics","Data Pipeline"],["Data pipeline development","Notebook-like editor","Orchestration"],"Growing"),
+("MotherDuck","https://motherduck.com/","MIT / Proprietary","Freemium",["SQL","Python"],["Data Science","Analytics","Cloud"],["Cloud analytics database","DuckDB integration","Collaborative SQL"],"Growing"),
+("Feast","https://feast.dev/","Apache-2.0","Free",["Python","SQL"],["Data Engineering","AI/ML","MLOps"],["Feature store","Offline and online features","Model serving integration"],"Growing"),
+("Evidently","https://www.evidentlyai.com/","Apache-2.0 / Proprietary","Freemium",["Python"],["Data Science","AI/ML","MLOps"],["Data quality checks","Model monitoring","Drift reports"],"Growing"),
+("marimo","https://marimo.io/","Apache-2.0","Free",["Python","SQL"],["Data Science","Analytics","Education"],["Reactive Python notebooks","Git-friendly notebooks","Interactive apps"],"Growing"),
+("Hex","https://hex.tech/","Proprietary","Freemium",["Python","SQL"],["Data Science","Analytics","Data Visualization"],["Collaborative notebooks","SQL and Python workflows","Interactive data apps"],"High"),
+],
+"Testing": [
+("Locust","https://locust.io/","MIT","Free",["Python"],["Testing","Performance","API Development"],["Code-based load tests","Distributed load generation","Web UI"],"Growing"),
+("Testcontainers","https://testcontainers.com/","MIT / Proprietary","Freemium",["Java","Python","Go","JavaScript"],["Testing","Backend","Database"],["Disposable service containers","Integration testing","Database modules"],"High"),
+("Cucumber","https://cucumber.io/","MIT","Free",["Java","JavaScript","Ruby"],["Testing","Automation","Acceptance Testing"],["Behavior-driven development","Gherkin scenarios","Executable specifications"],"High"),
+("Gatling","https://gatling.io/","Apache-2.0 / Proprietary","Freemium",["Java","Scala","Kotlin","JavaScript"],["Testing","Performance","API Development"],["Load testing","Code-based scenarios","Performance reports"],"Growing"),
+],
+}
+
 CATEGORY_DEFAULTS = {
 "IDE & Editor": ("Build and maintain software with an extensible development environment.", ["Web Development","Backend"], ["Beginner","Intermediate","Advanced"], ["Web App","API","Mobile App","Data Pipeline"], ["PostgreSQL","MySQL","MongoDB","SQLite"]),
 "Frontend Framework": ("Build interactive, accessible user interfaces and web experiences.", ["Web Development","Frontend","Design Systems"], ["Beginner","Intermediate","Advanced"], ["Web App","E-commerce","Content Site","Dashboard"], ["PostgreSQL","MySQL","MongoDB","Firebase"]),
@@ -185,7 +252,8 @@ DESCRIPTIONS = {
 
 def seed_tools():
     rows=[]
-    for category, entries in CATALOG.items():
+    for category, base_entries in CATALOG.items():
+        entries = base_entries + ADDITIONS.get(category, [])
         description, domains, levels, projects, databases = CATEGORY_DEFAULTS[category]
         for name,url,license_type,pricing,languages,tool_domains,features,popularity in entries:
             rows.append({"name":name,"description":f"{name}: {DESCRIPTIONS[category]} {description}","category":category,
