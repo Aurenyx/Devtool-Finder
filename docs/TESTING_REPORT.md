@@ -15,4 +15,5 @@ npm run build
 - Backend: 7 passed.
 - Frontend: 4 passed.
 - Production frontend build: passed.
-- Live local browser smoke check: dashboard loaded 127 catalog records and 11 categories; the recommendation form returned an 8-item Python + AI/ML shortlist with explanations; the comparison page loaded and compared PyTorch with ONNX.
+- Initial local browser smoke check (before catalog expansion): dashboard loaded 127 catalog records and 11 categories; the recommendation form returned an 8-item Python + AI/ML shortlist with explanations; the comparison page loaded and compared PyTorch with ONNX.
+- Live production check after expansion: dashboard and About page showed 171 tools; the API health endpoint returned `{"status":"ok","tools":171}`; the recommendation form returned a ranked Data Science shortlist.

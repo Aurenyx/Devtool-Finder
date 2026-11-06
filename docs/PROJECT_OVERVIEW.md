@@ -16,8 +16,8 @@ DevTool Finder helps a developer narrow a broad catalog using the stack and proj
 - React 18, TypeScript, Vite, Tailwind CSS configuration, Lucide React, React Router.
 - FastAPI/Pydantic API and SQLAlchemy 2 SQLite persistence.
 - Pandas/NumPy preparation and score calculations, scikit-learn TF-IDF/cosine similarity.
-- 127 seeded tools from 11 categories.
+- 171 seeded tools from 11 categories, with the catalog count shown dynamically in the dashboard and About page.
 
 ## Limitations
 
-This academic project uses a hand-curated snapshot, not a live product feed. Catalog tags are broad suitability signals. The recommender ranks only tools present in the local dataset and explanations describe matched metadata; they are not endorsements. Pricing and license facts can change. There is no account system, hosted deployment, or server-side profile storage.
+The catalog is a hand-curated snapshot, not a live product feed. Catalog tags are broad suitability signals. The recommender ranks only tools present in the local dataset and explanations describe matched metadata; they are not endorsements. Pricing and license facts can change. The public app is hosted at https://devtool-finder-myp2.vercel.app with its API at https://devtool-finder-api.onrender.com. There is no account system or server-side profile storage.
