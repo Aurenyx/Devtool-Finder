@@ -19,7 +19,7 @@ flowchart LR
 
 ## Data flow
 
-At startup, the FastAPI lifespan creates the `tools` table and adds any missing names from the 171-entry seed catalog. Existing rows are preserved. API routes serialize SQLAlchemy records with Pydantic response models. `/api/recommend` loads current tools, builds a text corpus and a user query, calculates similarity and structured matches, then returns ranked records with explanations. The browser stores only favorite IDs in local storage; the catalog remains the source of tool details.
+At startup, the FastAPI lifespan creates the `tools` table and adds any missing names from the 172-entry seed catalog. Existing rows are preserved. API routes serialize SQLAlchemy records with Pydantic response models. `/api/recommend` loads current tools, builds a text corpus and a user query, calculates similarity and structured matches, then returns ranked records with explanations. The browser stores only favorite IDs in local storage; the catalog remains the source of tool details.
 
 ## API boundaries
 

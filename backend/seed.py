@@ -219,6 +219,7 @@ ADDITIONS = {
 ("Testcontainers","https://testcontainers.com/","MIT / Proprietary","Freemium",["Java","Python","Go","JavaScript"],["Testing","Backend","Database"],["Disposable service containers","Integration testing","Database modules"],"High"),
 ("Cucumber","https://cucumber.io/","MIT","Free",["Java","JavaScript","Ruby"],["Testing","Automation","Acceptance Testing"],["Behavior-driven development","Gherkin scenarios","Executable specifications"],"High"),
 ("Gatling","https://gatling.io/","Apache-2.0 / Proprietary","Freemium",["Java","Scala","Kotlin","JavaScript"],["Testing","Performance","API Development"],["Load testing","Code-based scenarios","Performance reports"],"Growing"),
+("agent-qa","https://vostride.com","FSL-1.1-ALv2 (competing-use restrictions)","Free software; external costs",["Natural language","YAML"],["Testing","Web Development","Mobile Development","Automation"],["Natural-language web, Android and iOS QA","Persistent memidex facts and procedures","Validated self-improvement","Recorded steps and screenshots","Separate model and infrastructure costs"],"Early-stage"),
 ],
 }
 
