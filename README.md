@@ -32,7 +32,7 @@ Then run `python -m backend` in one terminal and `npm run dev` in another. To bu
 - Per-result relevance scores and preference-specific explanations.
 - Tool detail pages and side-by-side comparison of two to four tools.
 - Favorites persisted in browser local storage.
-- SQLite auto-initialization and additive seeding of **171 tools** across 11 categories. New catalog entries are added on startup without replacing existing rows.
+- SQLite auto-initialization and additive seeding of **172 tools** across 11 categories. New catalog entries are added on startup without replacing existing rows.
 - API docs, backend pytest suite, frontend Vitest/Testing Library suite, and system documentation in `docs/`.
 
 ## Testing

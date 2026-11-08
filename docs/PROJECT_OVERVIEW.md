@@ -16,7 +16,7 @@ DevTool Finder helps a developer narrow a broad catalog using the stack and proj
 - React 18, TypeScript, Vite, Tailwind CSS configuration, Lucide React, React Router.
 - FastAPI/Pydantic API and SQLAlchemy 2 SQLite persistence.
 - Pandas/NumPy preparation and score calculations, scikit-learn TF-IDF/cosine similarity.
-- 171 seeded tools from 11 categories, with the catalog count shown dynamically in the dashboard and About page.
+- 172 seeded tools from 11 categories, with the catalog count shown dynamically in the dashboard and About page.
 
 ## Limitations
 

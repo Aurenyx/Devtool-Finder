@@ -1,6 +1,6 @@
 # Dataset documentation
 
-The seed catalog contains 171 established developer products in 11 categories. It is embedded in `backend/seed.py` and seeded automatically into SQLite. Startup adds any catalog entries missing from an existing database without deleting or replacing its current rows. Deleting the local database and restarting regenerates it from the full seed catalog.
+The seed catalog contains 172 developer products in 11 categories. It is embedded in `backend/seed.py` and seeded automatically into SQLite. Startup adds any catalog entries missing from an existing database without deleting or replacing its current rows. Deleting the local database and restarting regenerates it from the full seed catalog.
 
 ## Categories
 
@@ -13,3 +13,5 @@ Each row contains integer ID (assigned by SQLite), name, description, category, 
 ## Provenance and limits
 
 Official links and commonly documented license labels are curated in the seed file, not retrieved live. Pricing and licensing labels intentionally use broad categories where products have multiple editions or licensing components. Category defaults provide general project/database compatibility tags when product-specific details are not encoded. These are discoverability hints rather than a compatibility certification. Recheck vendor documentation before adoption, especially for commercial use or current pricing.
+
+The agent-qa entry uses `Early-stage` as an editorial status in the free-text popularity field, not an adoption metric. Its license field states the FSL competing-use restrictions, and pricing/features disclose separate model and infrastructure costs.
